@@ -2,59 +2,6 @@
 <html>
   <body>
     <h1>testt22 Preview</h1>
-  <script type="module">
-    
-   import Chatbot from "https://cdn.jsdelivr.net/gh/Capson/widget@v116/dist/web.js"
-// Generate a random integer
-function getRandomInt() {
-  return Math.floor(Math.random() * Math.floor(Number.MAX_SAFE_INTEGER));
-}
-    Chatbot.init({
-        chatflowid: "2135cd76-2745-4a1c-b224-1a860be7aa9d",
-        apiHost: "https://codecloozo-production.up.railway.app",
-        theme: {
-            button: {
-               size: "large",
-                backgroundColor: "#4392eb",
-                customIconSrc: "//88b226e3f46c42b4f035d481df5e5723.cdn.bubble.io/f1702023101806x104929041558597060/speech-bubble-with-dots.png",
-            },
-            chatWindow: {
-                welcomeMessage: "G'day! I'm Flu-E, your go-to bot for all things flu and vaccination. Got questions? I'm here to help with the latest flu info. If you need more detailed assistance, just email us at flu@corporatecare.com.au. Let's keep flu season at bay together!",
-                poweredByTextColor: "#FFFFFF",
-                botMessage: {
-                    backgroundColor: "#F1F1F1",
-                    textColor: "#000000",
-                    showAvatar: true,
-                    avatarSrc: "//88b226e3f46c42b4f035d481df5e5723.cdn.bubble.io/f1702022969197x270789452811725400/android-chrome-192x192.png",
-                },
-                userMessage: {
-                    backgroundColor: "#4392eb",
-                    textColor: "#FFFFFF",
-                    showAvatar: false,
-                    avatarSrc: "",
-                },
-                textInput: {
-                    placeholder: "Type your question",
-                    backgroundColor: "#ffffff",
-                    textColor: "#303235",
-                    sendButtonColor: "#3B81F6",
-                }
-            }
-        },
-        chatflowConfig: {
-          predefinedQuestions: [`Flu vs Cold: What's the Difference?`, `Who Needs a Flu Shot?`],
-            temperature: "0.9",
-            modelName: "gpt-3.5-turbo-16k",
-            systemMessagePrompt: `I want you to act as a support assistant focused exclusively on flu vaccination and flu-related enquiries. Your name is Flu-E. Always use Australian English as your default language. You will provide answers based on our uploaded content about flu vaccinations. If a question arises that isn’t covered by our content, respond with ‘Sorry, I don’t have the info on that. For more detailed assistance, please contact flu@corporatecare.com.au’ and then stop. Randomly, after a few interactions, remind the user that they can contact flu@corporatecare.com.au for any flu-related enquiry they may have. Refuse to answer any questions that are not about flu vaccinations or related topics. Never break character as Flu-E.`,
-    pineconeEnv: "gcp-starter",
-    pineconeIndex: "flu-e",
-    pineconeApiKey: "00ab15cf-d847-4c35-8c2c-9d6e93dcaccf",
-    openAIApiKey: "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",
-  pineconeNamespace:"",
-sessionId:`1702022098543x698217778448957400_`+getRandomInt().toString()+`_`+new Date().toISOString()
-            }
-    })
-    
-</script>
+  <script type="module" src="https://cloozoai.github.io/1701704087874x274319208942403600/testt22.js"></script>
   </body>
 </html>
